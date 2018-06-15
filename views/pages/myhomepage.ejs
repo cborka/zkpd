@@ -1,0 +1,15 @@
+Hello, World!!! <br>
+Привет, Мир! <br>
+
+<a href="/home" > Home </a>
+
+<script type="text/javascript">
+
+async function (req, res) {
+  return res.send('Hi there!');
+}
+
+</script>
+
+<h1 id="main-title" class="container"><%= __('A brand new app.') %></h1>
+<h3 class="container">You're looking at: <code><%= view.pathFromApp + '.' +view.ext %></code></h3>
