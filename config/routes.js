@@ -25,8 +25,9 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': {  view: 'pages/myhomepage' },
-  '/home': { view: 'pages/homepage'  },
-  '/user/hi': 'UserController.hi',
+  '/home': { view: 'pages/homepage'  }
+  //'/user/hi': {view: 'pages/myhomepage'},
+  //'/users/hi': 'UserController/hi',
   /***************************************************************************
   *                                                                          *
   * More custom routes here...                                               *
