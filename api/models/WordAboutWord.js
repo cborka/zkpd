@@ -22,7 +22,7 @@ module.exports = {
 
       addedBy: {
           required: true,
-          model: 'user'
+          model: 'person'
       },
 
       aboutWord: {

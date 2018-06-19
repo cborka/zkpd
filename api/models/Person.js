@@ -9,10 +9,25 @@ module.exports = {
 
   attributes: {
 
-      userName: {
+      personName: {
           type: 'string',
           required: true,
           maxLength: 100
+      },
+
+      password: {
+          type: 'string',
+          required: true,
+          description: 'Зашифрованный пароль',
+          protect: true
+      },
+
+      fullName: {
+          type: 'string',
+          required: true,
+          description: 'Полное имя',
+          maxLength: 120,
+          example: 'Иванов Иван Иванович'
       },
 
       email: {
